@@ -12,13 +12,9 @@ button {background: #7fff83;border-bottom-color: #7fff83;}
 #Flipa {height: 150px;align-items: center;}
 #CUERPO {/* Cuerpo de la carta */
 
-background: url('../Imagenes/fondo-negro.jpg');
-background-position: center center;
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: cover;
-background-color: #464646;
 
+background-color: #464646;
+background: #daff95;
 
 
 
