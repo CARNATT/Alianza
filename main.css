@@ -1,5 +1,4 @@
 body {margin:0px;white-space:nowrap;}
-html {background: #51ff2a;}
 #Cabecera {
     background: #7fff83;/* Color verde */
     display: flex;/* contrar */
@@ -9,48 +8,62 @@ html {background: #51ff2a;}
 #Menu {cursor: pointer;width: 59px;padding: 15px;}
 footer {background: #162415; color: #ffffff;margin: 0px;}
 #Ssa {height: 100%;width: 100%;}
-button {background: #7fff83;cursor: pointer;}
+button {background: #7fff83;border-bottom-color: #7fff83;}
 #Flipa {height: 150px;align-items: center;}
-/* Ancho del texto */
-#Text {width: 100%;overflow: hidden; white-space: normal;}
-#CUERPO {
+#CUERPO {/* Cuerpo de la carta */
 
-/* background: url('bolitas.jpg')scroll; */
-    background: #ffffbf;
-    display: flex;/* contrar */
-    justify-content: space-between;/* lados opuestos */
+background: url('../Imagenes/fondo-negro.jpg');
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-color: #464646;
 
+
+
+
+padding-top: 35px;
+padding-bottom: 35px;
+	 
+	
+	
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 150px;
+  padding-right: 150px; 
+  }
+  
+.Gon {
+				/* background: #ff1515;
+				text-align: center; 
+				width: 200px; 
+       overflow: hidden; 
+       white-space: normal;
+         
+         padding: 35px;
+         
+  background: while;
+  border-radius: 50px;
+  box-shadow: 0px 0 0px 3px #e6e5e9 */
+  
+  
+  padding-right: 10px;
+  background: white;
+  border-radius: 25px;
+  box-shadow: 0px 0 0px 1px #e6e5e9;
+  padding-bottom: 100px;
+  height: 10px;
+  width: 100px;
+  
+  
+  
+  
+			}
+.Btn {
+					
+						border-radius: 150px;
+						border-bottom-color: #d915ff;
+						clip: auto;
 }
-/* MENU LATERAL */
-.MENU {
-						width: 60px;
-						height:80px;	
-						background: #ffbd15;
-						border-radius: 10px;
-						position: absolute;
-						top: 40%;
-						left: 0;
-						text-align: center;
-						transition: left 0.4s;}
-
-.checkbox:checked ~ .MENU {left: 39%;border-radius: 10px;}
-
-.left-panel {width: 40%;height: 100%;
-background: #95ffa3;
-           position: absolute;
-           top: 0;
-           left: -40%;
-           display: flex;
-						align-items: center;
-						justify-content: center;
-						transition: left 0.4s;}
-
-.checkbox:checked ~ .left-panel {left: 0;}
-.checkbox {display: none;}
-ul a {text-decoration: none;}
-ul {
-						list-style: none;
-						font-size: 2rem;
-						text-align: center;
-						margin: 1px;
-						top: 20px;}
+h2 {text-align: center; color: #ff0b00;}
